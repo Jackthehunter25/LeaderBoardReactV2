@@ -1,0 +1,38 @@
+Hello there! Thank you for choosing the emma_luv to develop your bot for your server. This guide will provide you with step-by-step instructions on setting up and using the bot to monitor reactions and create leaderboards for your channels. Let's get started:
+
+**Step 1: Install Required Dependencies**
+1. Open a terminal or command prompt on your computer.
+2. Navigate to the directory where you have the bot script located. (if it's windows use cd {the directory} )
+3. Run the following command to install the required dependencies:
+   
+   ```
+   pip install discord.py dispie
+   ```
+
+**Step 2: Bot Token Setup**
+1. Open the script file (`main.py`) in your preferred code editor.
+2. Locate the `TOKEN` variable in the script. It should look like this: `TOKEN='YOUR_BOT_TOKEN_HERE'`.
+3. Replace `'YOUR_BOT_TOKEN_HERE'` with your actual bot token. This token is available in the Developer Portal after creating your bot.
+
+**Step 3: Configure Leaderboard Settings**
+1. In the script, you'll find a variable named `num_user_per_leaderboard_page`. This variable determines the number of users displayed per leaderboard page. You can adjust it to your preference.
+
+**Step 4: Run the Bot**
+1. Open a terminal or command prompt.
+2. Navigate to the directory containing the script using the `cd` command.
+3. Run the script by entering `python main.py` and pressing Enter.
+
+**Step 5: Bot Commands**
+
+- `!monitor <channel>`: Start monitoring a specific channel for reactions.
+- `!unmonitor <channel>`: Stop monitoring a channel for reactions.
+- `!leaderboard [channel]`: Display the reaction leaderboard for a specific channel. If no channel is provided, a combined leaderboard will be shown.
+- `!help`: Display a list of available commands.
+
+**Step 6: Interact with the Bot**
+1. Invite the bot to your server using the appropriate permissions.
+2. Use the provided commands to monitor channels, view leaderboards, and manage bot settings.
+
+And that's it! You've successfully set up and configured the  bot to monitor reactions and generate leaderboards for your channels. If you encounter any issues or have questions, feel free to refer to the script's documentation or seek assistance from the developer.
+
+Happy botting! 🎉
